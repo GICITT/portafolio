@@ -1,11 +1,10 @@
 import React from "react";
 import "./Contact.css";
-import logo from "../../assets/logo-sn.png";
 import { MdOutlineMail } from "react-icons/md";
 import { MdOutlinePhoneInTalk } from "react-icons/md";
 import { SlLocationPin } from "react-icons/sl";
-/*import { toast } from "react-toastify";*/
-/*import "react-toastify/dist/ReactToastify.css";*/
+import { toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 export default function Contact() {
   const onSubmit = async (event) => {
@@ -27,7 +26,7 @@ export default function Contact() {
     }).then((res) => res.json());
 
     if (res.success) {
-      alert("Message sent successfully!");
+      toast.success("Message sent successfully!");
     }
   };
 
@@ -38,7 +37,7 @@ export default function Contact() {
       </div>
       <div className="contact-section">
         <div className="contact-left">
-          <h1>Contáctam</h1>
+          <h1>Contactame</h1>
           <div className="contact-details">
             <div className="contact-detail">
               <MdOutlineMail className="contact-img" />{" "}
@@ -59,12 +58,8 @@ export default function Contact() {
           <label htmlFor=""> Your Name</label>
           <input type="text" placeholder="Enter your name" name="name"></input>
           <label htmlFor=""> Your Email</label>
-          <input
-            type="text"
-            placeholder="Enter your name"
-            email="email"
-          ></input>
-          <label htmlFor=""> White yor menssage here</label>
+          <input type="text" placeholder="Enter your name" name="email"></input>
+          <label htmlFor=""> Write yor menssage here</label>
           <textarea
             name="message"
             rows="8"
