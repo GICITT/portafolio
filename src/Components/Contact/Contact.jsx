@@ -5,7 +5,7 @@ import { MdOutlineMail } from "react-icons/md";
 import { MdOutlinePhoneInTalk } from "react-icons/md";
 import { SlLocationPin } from "react-icons/sl";
 import { toast } from "react-toastify";
-import "react-toastify/dist/ReactToastify.css";
+import "./react-toastify/dist/ReactToastify.css";
 
 export default function Contact() {
   const onSubmit = async (event) => {
