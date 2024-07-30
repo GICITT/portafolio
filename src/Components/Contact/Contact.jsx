@@ -3,8 +3,6 @@ import "./Contact.css";
 import { MdOutlineMail } from "react-icons/md";
 import { MdOutlinePhoneInTalk } from "react-icons/md";
 import { SlLocationPin } from "react-icons/sl";
-import { toast } from "react-toastify";
-import "react-toastify/dist/ReactToastify.css";
 
 export default function Contact() {
   const onSubmit = async (event) => {
@@ -26,7 +24,7 @@ export default function Contact() {
     }).then((res) => res.json());
 
     if (res.success) {
-      toast.success("Message sent successfully!");
+      alert("Message sent successfully!");
     }
   };
 
