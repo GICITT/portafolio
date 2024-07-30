@@ -1,5 +1,5 @@
 import "./Hero.css";
-import imgProfile from "../../assets/imgProfile.jpg";
+import imgProfile from "../../assets/logo-sn.png";
 import AnchorLink from "react-anchor-link-smooth-scroll";
 import React from "react";
 
