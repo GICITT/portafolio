@@ -9,7 +9,7 @@ export default function Footer() {
         <div className="footer-top-left">
           <img src={logo} alt="" height="150px" width="170" />
           <p>
-            Desarolladora con 2 años de experiencia en busqueda de nuevos
+            Desarolladora con +2 años de experiencia en busqueda de nuevos
             desafios.
           </p>
         </div>
