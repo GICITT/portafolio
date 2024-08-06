@@ -20,10 +20,15 @@
   font-size: 22px;
   cursor: pointer;
   transition: 0.5s;
+  text-decoration: none;
+  color: white;
 }
-
 .nav-connect:hover {
   transform: scale(1.05);
+}
+
+.a-nav-connect {
+  text-decoration: none;
 }
 
 .IoReniveOutline {
@@ -93,4 +98,3 @@
     gap: 20px;
   }
 }
-

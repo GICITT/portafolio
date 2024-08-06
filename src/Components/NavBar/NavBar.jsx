@@ -64,7 +64,7 @@ export default function NavBar() {
           )}
         </li>
       </ul>
-      <a href="Profile.pdf" download="Profile.pdf">
+      <a className="a-nav-connect" href="Profile.pdf" download="Profile.pdf">
         <div className="nav-connect">Descargar Cv</div>
       </a>
     </div>

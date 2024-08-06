@@ -48,7 +48,7 @@ export default function Contact() {
             </div>
             <div className="contact-detail">
               <SlLocationPin className="contact-img" />{" "}
-              <p>San Martin, Buenos Aires, Argentina</p>.
+              <p>San Martin, Buenos Aires, Argentina.</p>
             </div>
           </div>
         </div>
