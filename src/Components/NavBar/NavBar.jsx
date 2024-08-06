@@ -64,9 +64,9 @@ export default function NavBar() {
           )}
         </li>
       </ul>
-      <AnchorLink className="anchor-link" offset={50} href="#contact">
-        <div className="nav-connect">Connect With Me</div>
-      </AnchorLink>
+      <a href="Profile.pdf" download="Profile.pdf">
+        <div className="nav-connect">Descargar Cv</div>
+      </a>
     </div>
   );
 }

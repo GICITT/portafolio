@@ -1,5 +1,5 @@
 import "./Hero.css";
-import imgProfile from "../../assets/logo-sn.png";
+import imgProfile from "../../assets/imgProfile3.jpeg";
 import AnchorLink from "react-anchor-link-smooth-scroll";
 import React from "react";
 
@@ -19,8 +19,8 @@ export default function Hero() {
       <p>
         Hola! Mi nombre es Gisela y soy Front End Developer en busca de una
         oportunidad, hace dos años me senti atraida por el mundo de la
-        informatica y la progamación por lo cual decidi darle giro a mi
-        profecion y cambiar de carrera.
+        informatica y la progamación por lo cual decidí darle giro a mi
+        profeción y cambiar de carrera.
       </p>
       <div className="hero-actions">
         <AnchorLink className="anchor-link" offset={50} href="#contact">
