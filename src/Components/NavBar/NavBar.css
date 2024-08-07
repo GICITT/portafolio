@@ -150,11 +150,10 @@
 
   .nav-menu {
     width: 100%;
-    right: -100%; /* Cambia el valor para que no se superponga al borde */
-  }
+    right: -100%;
 
   .nav-menu li {
-    font-size: 25px; /* Ajusta el tamaño del texto según sea necesario */
-    padding-left: 10px; /* Ajusta el padding según sea necesario */
+    font-size: 25px; 
+    padding-left: 10px; 
   }
 }
