@@ -7,7 +7,7 @@ export default function Footer() {
     <div id="footer" className="footer">
       <div className="footer-top">
         <div className="footer-top-left">
-          <img src={logo} alt="" height="150px" width="170" />
+          <img src={logo} alt="" height="150px" width="170" className="img" />
           <p>
             Desarolladora con +2 años de experiencia en busqueda de nuevos
             desafios.

@@ -151,5 +151,9 @@
 @media (max-width: 414px) {
   .about h1 {
     margin-bottom: auto;
+    font-size: 40px;
+    font-weight: 500px;
+    text-align: center;
+    line-height: 1.2;
   }
 }

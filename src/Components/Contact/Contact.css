@@ -166,3 +166,70 @@
     padding: 15px 40px;
   }
 }
+
+@media (max-width: 374px) {
+  .contact-title {
+    margin-top: -300px;
+    font-size: 40px;
+    font-weight: 500px;
+    text-align: center;
+    line-height: 1.2;
+  }
+
+  .contact {
+    gap: 50px;
+    margin: 20px 40px;
+  }
+  .contact-title h1 {
+    margin-top: 100px;
+    padding: 0;
+    margin-top: 350px;
+    font-size: 50px;
+    font-weight: 600px;
+  }
+
+  .contact-detail {
+    margin-left: 380px;
+  }
+  .contact-section {
+    flex-direction: column;
+  }
+  .contact-left h1 {
+    font-size: 44px;
+    margin-left: 400px;
+  }
+  .contact-left p {
+    font-size: 18px;
+  }
+  .contact-detail {
+    gap: 20px;
+  }
+  .contact-detail {
+    gap: 20px;
+  }
+  .contact-img {
+    width: 25px;
+  }
+
+  .contact-right {
+    margin-top: -70px;
+  }
+  .contact-right label {
+    font-size: 10px;
+    margin-left: 378px;
+  }
+  .contact-right input {
+    width: 40%;
+    margin-left: 370px;
+    height: 50px;
+  }
+  .contact-right textarea {
+    width: 62%;
+    font-size: 10px;
+    margin-left: 10px;
+  }
+  .contact-submit {
+    font-size: 20px;
+    padding: 15px 40px;
+  }
+}

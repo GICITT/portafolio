@@ -5,6 +5,10 @@
   margin: 20px 170px;
 }
 
+.img {
+  height: 150px;
+  width: 170px;
+}
 .nav-menu {
   list-style: none;
   display: flex;
@@ -67,6 +71,63 @@
     right: 30px;
     margin-right: 0;
     color: white;
+  }
+
+  .nav-mob-close {
+    display: block;
+    position: relative;
+    top: 30px;
+    left: 290px;
+    width: 30px;
+    color: aliceblue;
+  }
+  .nav-menu {
+    position: fixed;
+    flex-direction: column;
+    align-items: start;
+    top: 0;
+    gap: 30px;
+    background-color: #1f0016;
+    width: 350px;
+    height: 100%;
+    z-index: 2;
+    transition: right 0.5s;
+    right: -350px;
+    align-items: start;
+  }
+  .nav-menu li {
+    font-size: 30px;
+    padding-left: 100px;
+    flex-direction: row;
+    gap: 20px;
+  }
+}
+
+@media (max-width: 374px) {
+  .navbar {
+    margin: 20px 50px;
+  }
+
+  .img {
+    height: 100px;
+    width: 120px;
+    margin-left: -60px;
+    margin-top: -20px;
+  }
+  .navba img {
+    width: 2000px;
+    height: 200px;
+  }
+  .nav-connect {
+    display: none;
+  }
+  .nav-mob-open {
+    display: block;
+    position: fixed;
+    right: 300px;
+    margin-right: 0;
+    color: white;
+    margin-top: -20px;
   }
 
   .nav-mob-close {

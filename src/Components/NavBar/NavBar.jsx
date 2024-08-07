@@ -19,7 +19,7 @@ export default function NavBar() {
 
   return (
     <div className="navbar">
-      <img src={logo} alt="" height="150px" width="170" />
+      <img src={logo} alt="profile-img" className="img" />
       <FiAlignRight className="nav-mob-open" onClick={openMenu} />
       <ul ref={menuRef} className="nav-menu">
         <IoClose className="nav-mob-close" onClick={closeMenu} />
