@@ -103,7 +103,7 @@
   }
 }
 
-@media (max-width: 576px) {
+@media (max-width: 500px) {
   .navbar {
     margin: 20px 50px;
   }
@@ -112,19 +112,16 @@
     height: 100px;
     width: 120px;
     margin-left: -60px;
-    margin-top: -20px;
+    margin-top: -200px;
   }
-  .navba img {
-    width: 2000px;
-    height: 200px;
-  }
+
   .nav-connect {
     display: none;
   }
   .nav-mob-open {
     display: block;
     position: fixed;
-    right: 300px;
+    right: 5px;
     margin-right: 0;
     color: white;
     margin-top: -20px;
