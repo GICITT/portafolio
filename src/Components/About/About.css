@@ -148,7 +148,7 @@
   }
 }
 
-@media (max-width: 414px) {
+@media (max-width: 576px) {
   .about h1 {
     margin-bottom: auto;
     font-size: 40px;
