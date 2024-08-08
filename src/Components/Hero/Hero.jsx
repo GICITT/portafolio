@@ -6,15 +6,10 @@ import React from "react";
 export default function Hero() {
   return (
     <div id="hero" className="hero">
-      <img
-        src={imgProfile}
-        alt="imgProfile"
-        className="img-Profile"
-        style={{ width: "250px", height: "auto", marginBottom: "25px" }}
-      />{" "}
+      <img src={imgProfile} alt="imgProfile" className="img-Profile" />
       <h1>
         {" "}
-        <span>Im Gisela Cittadini,</span> developer based in Buenos Aires{" "}
+        <span>Im Gisela Cittadini,</span> developer based in Buenos Aires
       </h1>
       <p>
         Hola! Mi nombre es Gisela y soy Front End Developer en busca de una

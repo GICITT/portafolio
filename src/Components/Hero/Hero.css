@@ -6,7 +6,9 @@
 }
 
 .img-Profile {
-  margin-top: 150px;
+  height: 400px;
+  width: auto;
+
   border-radius: 10%;
 }
 
@@ -107,9 +109,9 @@
   }
 }
 
-@media (max-width: 576px) {
+@media (max-width: 500px) {
   .img-Profile {
-    height: 150;
+    height: 400px;
     width: auto;
   }
   .hero-connect {
